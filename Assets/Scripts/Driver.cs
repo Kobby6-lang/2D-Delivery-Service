@@ -26,7 +26,7 @@ public class Driver : MonoBehaviour
             Debug.Log("d is pressed");
         }
 
-        transform.Translate(0, 0.05f, 0);
-        transform.Rotate(0, 0, 0.5f);
+        transform.Translate(0, steerSpeed, 0);
+        transform.Rotate(0, 0, moveSpeed);
     }
 }
