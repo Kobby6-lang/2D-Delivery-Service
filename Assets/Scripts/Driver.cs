@@ -13,7 +13,7 @@ public class Driver : MonoBehaviour
         {
             Debug.Log("w is pressed");
         }
-        if (Keyboard.current.sKey.isPressed)
+        else if (Keyboard.current.sKey.isPressed)
         {
             Debug.Log("s is pressed");
         }
@@ -21,7 +21,7 @@ public class Driver : MonoBehaviour
         {
             Debug.Log("a is pressed");
         }
-        if (Keyboard.current.dKey.isPressed)
+        else if (Keyboard.current.dKey.isPressed)
         {
             Debug.Log("d is pressed");
         }
